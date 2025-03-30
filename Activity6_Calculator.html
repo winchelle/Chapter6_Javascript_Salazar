@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="petrol.css"> <!--Link going to petrol css-->
+    <title>Petrol Calculator</title> <!--Website Name-->
+</head>
+<body>
+    <div class="calcu">
+        <h1>Petrol Cost Calculator</h1> <!--Calcu Name-->
+
+        <p> 
+            <h2>Liter Price</h2> <!--name for petrol per liter-->
+            <input type="number" id="price" value="1.72"> <!--default value 1.27-->
+        </p>
+        
+        <p> 
+            <h2>Liter</h2> <!--name for liter purchased-->
+            <input type="number" id="liters" placeholder="Enter the number of liters">
+        </p>
+        
+        <button onclick="calculateCost()">Total</button> <!--Total button-->
+        
+        <p id="total"></p>
+        
+        <script src="petrol.js"></script> <!--Link going to petrol javascript-->
+    </div>
+</body>
+</html>
+
